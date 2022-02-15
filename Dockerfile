@@ -7,7 +7,8 @@ RUN  chmod -R ugo+rwx /home/aceuser
  
 USER 1000
  
-RUN ace_compile_bars.sh
+# RUN ace_compile_bars.sh
+RUN ace_config_bar_overrides.sh
  
 USER root
  
